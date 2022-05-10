@@ -19,7 +19,7 @@ server.get("/",cors(), async(req,res)=>{
 
 })
 
-//Login post and get controller
+// Login post and get controller
 server.post('/login',async(req,res)=>{
   let holdRequest = req.body;
  
